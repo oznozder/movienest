@@ -1,35 +1,33 @@
 # movienest
 A website primarily focused on searching for and finding movies.
-# Fron-end-Javascript_ilk_proje
 
+### Project Instructions  
 
-### Proje Talimatlar
+### Project Description  
 
-### Proje Tanımı
+### Project Guide  
 
-### Proje Klavuz
+### Project License Information  
 
-### Proje Lisans Bilgileri
-
-## HTML5
+## HTML5  
 
 ## CSS3
 
-## Tailwind
+## Tailwind  
 
-## Javascript (JS)
+## JavaScript (JS)  
 
-## jquery (JS Libraries)
+## jQuery (JS Libraries)  
 
-## NodeJS
+## NodeJS  
 
 ## ReactJS
 
-### Kurulum
+### Installation
 
-1. **Depoyu Klonla**
+## Clone the Repository
 
-   ```bash
-   git clone https://github.com/oznozder/movienest
+```bash
+git clone https://github.com/oznozder/movienest
 
-### Gereksinimler
+### Requirements
