@@ -31,3 +31,7 @@ A website primarily focused on searching for and finding movies.
 git clone https://github.com/oznozder/movienest
 
 ### Requirements
+
+ **A modern web browser** (Google Chrome, Firefox, etc.)  
+ **A text editor** (VS Code, Sublime Text, etc.)  
+ **A live server** (Live Server extension to run the project on a local server)  
