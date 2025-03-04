@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieNest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header-container"></div>
+
+    <section id="search-section">
+        <input type="text" id="search-input" placeholder="Film adı, senarist veya konu arayın...">
+        <button id="search-btn">Ara</button>
+    </section>
+
+    <section id="results-section">
+
+    </section>
+
+    <div id="footer-container"></div>  
+
+    <script src="script.js"></script>
+
+    <script>
+        fetch('components/header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-container').innerHTML = data;
+            });
+
+        fetch('components/footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-container').innerHTML = data;
+            });
+    </script>
+</body>
+
+</html>
