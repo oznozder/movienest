@@ -19,7 +19,7 @@
 .main-title {
     font-size: 24px; 
     margin: 0 10px;
-    color: rgb(151, 199, 112);
+    color: rgb(214, 230, 202);
     opacity: 1;
 }
 
@@ -42,7 +42,7 @@
 
 /* Menü linkleri */
 .nav-links li a {
-    color: rgb(151, 199, 112);
+    color: rgb(214, 230, 202);
     text-decoration: none;
     font-size: 18px;
 }

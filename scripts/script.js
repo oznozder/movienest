@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const loadMoreButton = document.getElementById("load-more"); // 📌 Butonu seçtik
 
     let films = [];
-    let displayedFilms = 3; // İlk başta 3 film gösterilecek
+    let displayedFilms = 6; // İlk başta 3 film gösterilecek
 
     fetch("../data/data.json")
         .then(response => response.json())

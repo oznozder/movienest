@@ -12,7 +12,17 @@
 
 <body>
         <!-- HEADER SECTİON -->
-    <div id="header-container"></div>
+        <header class="main-header">
+            <a href="index.html"><img src="./assets/logo.webp" alt="MovieNest Logo" class="logo"></a>
+            <h1 class="main-title">MovieNest</h1>
+            <nav class="nav-bar">
+                <ul class="nav-links">
+                    <li><a href='index.html'>Ana Sayfa</a></li>
+                    <li><a href='about.html'>Hakkımızda</a></li>
+                    <li><a href='contact.html'>İletişim</a></li>
+                </ul>
+            </nav>
+        </header>
 
          <!-- BODY SECTİON -->
          <main>
@@ -33,23 +43,11 @@
             
         </main>
         <!-- FOOTER SECTİON -->
-    <div id="footer-container"></div>  
+        <footer>
+            <p><b>MovieNest</b> Movie search engine - 2025</p>
+        </footer>
 
     <script src="./scripts/script.js"></script>
-
-    <script>
-        fetch('./components/header.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('header-container').innerHTML = data;
-            });
-
-        fetch('./components/footer.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('footer-container').innerHTML = data;
-            });
-    </script>
 </body>
 
 </html>
